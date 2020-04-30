@@ -6,7 +6,7 @@ $(window).on("load", function() {
 // scroll down smooth buttom
 $(document).ready(function() {
     $(".custom-button").click(function() {
-        $("html, body").animate({ scrollTop: $("#about_me_page").offset().top + 10 },
+        $("html, body").animate({ scrollTop: $("#my_projects_page").offset().top + 10 },
             "slow"
         );
     });
@@ -51,3 +51,9 @@ $(document).ready(function() {
         }
     });
 });
+
+
+// show message on IE browser for not sporting style functionality
+if (navigator.appName == 'Microsoft Internet Explorer' || !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)) {
+    alert("Please Change your browser, Internet Explorer might not display this Website correctly.");
+}

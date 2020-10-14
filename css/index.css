@@ -128,7 +128,7 @@ section {
     content: '\25CF';
     margin-right: 1em;
     font-size: 2.3em;
-    color: gainsboro;
+    color: lightgray;
 }
 
 .experiance-bar>li:after {
@@ -136,7 +136,7 @@ section {
     left: 0;
     top: 0;
     content: '';
-    border-left: 1.5px solid gainsboro;
+    border-left: 1.5px solid lightgray;
     margin-left: 0.6em;
     height: 100%;
 }

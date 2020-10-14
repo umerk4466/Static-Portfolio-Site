@@ -121,12 +121,12 @@ section {
 
 .experiance-bar>li {
     position: relative;
-    max-height: 5.5em;
+    max-height: 80px;
 }
 
 .experiance-bar>li:before {
     content: '\25CF';
-    font-size: 2em;
+    font-size: 32px;
     color: lightgray;
 }
 
@@ -136,13 +136,13 @@ section {
     top: 0;
     content: '';
     border-left: 1.5px solid lightgray;
-    margin-left: 0.58em;
+    margin-left: 9px;
     height: 100%;
 }
 
 .experiance-box {
-    margin-left: 3em;
-    top: -2.2em;
+    margin-left: 40px;
+    top: -34px;
     position: inherit;
 }
 
@@ -159,7 +159,7 @@ section {
 
 .circle-icon {
     border-radius: 50%;
-    border: 2px solid black;
+    border: 1.5px solid black;
     text-align: center;
     vertical-align: middle;
     padding: 6px;

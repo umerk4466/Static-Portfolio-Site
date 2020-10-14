@@ -103,7 +103,7 @@ section {
     border: 1px solid #F2F5F6;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 0 10px #E6E6FA;
+    box-shadow: 0 0 8px #E6E6FA;
 }
 
 .bar span {

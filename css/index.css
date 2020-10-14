@@ -121,13 +121,13 @@ section {
 
 .experiance-bar>li {
     position: relative;
-    max-height: 90px;
+    max-height: 5.5em;
 }
 
 .experiance-bar>li:before {
     content: '\25CF';
     margin-right: 10px;
-    font-size: 32px;
+    font-size: 2.3em;
     color: #E6E6FA;
 }
 
@@ -137,13 +137,13 @@ section {
     top: 0;
     content: '';
     border-left: 1.5px solid #E6E6FA;
-    margin-left: 8px;
+    margin-left: 0.6em;
     height: 100%;
 }
 
 .experiance-box {
-    margin-left: 34px;
-    top: -34px;
+    margin-left: 2.5em;
+    top: -2.5em;
     position: inherit;
 }
 

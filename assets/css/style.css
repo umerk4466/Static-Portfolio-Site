@@ -13,7 +13,7 @@
 body {
     color: var(--white-body-text-color);
     font-family: "Raleway";
-    font-size: 14px;
+    font-size: small;
 }
 
 hr {

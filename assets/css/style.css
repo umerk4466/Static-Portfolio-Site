@@ -428,6 +428,7 @@ hr {
 .footer-links {
     text-decoration: none;
     color: var(--black-body-text-color);
+    word-break: break-word;
 }
 
 .footer-links:hover {
